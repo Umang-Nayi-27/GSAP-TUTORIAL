@@ -17,17 +17,42 @@ function playbtn()
     ply.play();
 }
 
+
 function stopbtn()
 {
    ply.pause();
 }
+
 
 function reversebtn()
 {
    ply.reverse();       //ketlu reverse javanu te kevani jarror nathi... khalu kayo variable animate thay che te kai devanu... te eni jate calculate keri dese k ene ketlu reverse javanu che.
 }
 
+
 function resetbtn()
 {  
    ply.restart();       // reset kerva mate GSAP ma restart() function vapray che.
 }
+
+//------------------------------------------------------------------------ onComplete: ()=>{} --------------------------------------------------------------------------------------------------
+// koi timeline khatam thay tyare aa event trigger tahy ...
+
+
+   // function playbtn()
+   // {
+   //     ply = gsap.to(".circle",{x:500, rotation:360 ,duration:5,   onComplete:()=>gsap.to(".circle",{backgroundColor:"red" })  });    
+   //     ply.play();
+   // }
+
+
+
+//------------------------------------------------------------------------ onComplete: ()=>{} --------------------------------------------------------------------------------------------------
+// koi timeline start thay tyare aa event trigger tahy ...
+
+   function playbtn()
+   {
+       ply = gsap.to(".circle",{x:500, rotation:360 ,duration:5,   onStart:()=>gsap.to(".circle",{backgroundColor:"red" })  });    
+       ply.play();
+   }
+
