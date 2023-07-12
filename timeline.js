@@ -5,11 +5,11 @@
         2. pachi aa varibale ni madad thi tema alag alag varible ane enimation add kerta javana
 */
 
-        // var t1 =gsap.timeline();
-        // t1.to(".circle",{y:100 ,duration:1, backgroundColor:"yellow"})
-        // t1.to(".circle1",{y:100 ,duration:1, backgroundColor:"green"})
-        // t1.to(".circle2",{y:100 ,duration:1 , backgroundColor:"orange"})
-        // t1.to(".circle3",{y:100 ,duration:1, backgroundColor:"blue"})
+        //  var t1 =gsap.timeline();
+        //  t1.to(".circle",{y:100 ,duration:1, backgroundColor:"yellow"})
+        //    .to(".circle1",{y:100 ,duration:1, backgroundColor:"green"})
+        //    .to(".circle2",{y:100 ,duration:1 , backgroundColor:"orange"})
+        //    .to(".circle3",{y:100 ,duration:1, backgroundColor:"blue"})
 
 // -----------------------------------------------  uper na program ma joi sakay che k... ---------------------------------------
 //------------------------------------t1 variable na time line ma .. first element ni time line khatam thay pachi j..------------
